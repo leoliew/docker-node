@@ -8,4 +8,4 @@ VOLUME ["/app"]
 WORKDIR /app
 
 # Start process.yml
-CMD ["http-server"]
+CMD ['bash']
