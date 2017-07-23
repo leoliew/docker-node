@@ -6,3 +6,6 @@ RUN npm install sails@0.12.3 grunt-cli bower pm2 -g --registry=https://registry.
 VOLUME ["/app"]
 
 WORKDIR /app
+
+# Define default command.
+CMD ['bash']
